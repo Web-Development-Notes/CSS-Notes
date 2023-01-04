@@ -1,0 +1,23 @@
+body{
+background: url("code.jpg");
+ 
+background-attachment: fixed ;
+/* to bring image to center */
+background-position: center;
+/*to bring the complete image fit to screen  */
+background-size: cover;
+
+}
+
+h1{
+
+    background:linear-gradient(to right,red,rgb(109, 109, 237));
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+p{
+    
+    background:linear-gradient(to right,green,yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}

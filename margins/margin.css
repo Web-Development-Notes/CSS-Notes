@@ -1,0 +1,36 @@
+#p1{
+
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background: greenyellow;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* can also use this */
+    /* margin: 10px 10px 10px 10px ; */
+}
+#p2{
+
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background: rgb(255, 168, 47);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* can use in percent to dynamically change margin when window expands or shrink */
+    /* margin-left: 40%; */
+
+    /* can also use this */
+    /* margin: 10px 10px 10px 10px ; */
+
+
+    /* automaticaly adjust the margin */
+    /* margin: auto; */
+}

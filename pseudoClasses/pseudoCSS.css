@@ -1,0 +1,40 @@
+ /* when link is not visited we set its attributes */
+a:link{
+color: gold;
+font-size: 50px;
+
+}
+ /* when link is visited we set its attributes */
+
+a:visited{
+
+    color: rgb(172, 43, 43);
+    
+
+}
+/* when we keep a mouse of google */
+a:hover{
+
+    color: blueviolet;
+}
+/* when we press and hold the link */
+a:active{
+
+    color: yellowgreen;
+}
+
+/* change 1st child color i.e first element */
+/* li:nth-child(1){
+    text-decoration: none;
+        color: green;
+    } */
+/* can also pass a even odd or a formula */
+/* li:nth-child(even){
+text-decoration: none;
+    color: green;
+}*/
+li:nth-child(2n+2){
+    text-decoration: none;
+        color: green;
+    }
+    

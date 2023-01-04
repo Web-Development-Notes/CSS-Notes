@@ -1,0 +1,18 @@
+p{
+
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    border-radius: 4px;
+
+}
+h1{
+    /* setting the border style for heading h1 */
+    border-top-style:dotted ;
+    border-bottom-style:dotted ;
+    border-left-style:double ;
+    border-left-width:10px ;
+    /* setting the color of left side of border */
+    border-left-color:darkblue ;
+
+}

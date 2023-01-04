@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    
+    }
+    h1{
+    
+        color: white;
+    }
+    p{
+        color: rgb(85, 233, 85);
+        font-size: 20px;
+
+        /* give multiple fonts so that if first doesn't work then second will work and so on */
+        font-family: "consolas","sans-serif";
+        /* make a wavy underline below the text */
+        text-decoration: red wavy underline;
+ /* make a dotted underline below the text */
+ /* text-decoration: red dotted underline; */
+ /* make a wavy underline below the text */
+ /* text-decoration: red dashed underline; */
+
+
+
+
+    }
+    

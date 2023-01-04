@@ -1,0 +1,46 @@
+#box{
+
+    border: 2px solid black;
+    height: 200px;
+    width: 250px;
+    font-size: 100px;
+    text-align: center;
+    background-color: aquamarine;
+
+
+    /* move the element towards X or Y axis */
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+
+    /* use a combination of x,y */
+    /* transform: translate(50px,50px); */
+
+    /* used to rotate the elements with the given angle */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+
+    /* Scaling the element size */
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+    /* transform: scale(2,2); */
+
+    /* used to skewed the element on x or y axis */
+    /* transform: skewX(45deg);
+    transform: skewY(45deg); */
+
+    transform: matrix(1,1,0,1,0,0);
+
+    /* matrix includes 
+    1.scaleX()
+    2.skewY()
+    3.skewX()
+    4.scaleY()
+    5.translateX()
+    6.translateY()
+    
+    
+    */
+
+
+}

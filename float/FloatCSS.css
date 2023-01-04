@@ -1,0 +1,11 @@
+.box{
+    border: 2px solid ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: tomato;
+    font-size: 40px;
+    float: left;
+    margin: 3px;
+
+}

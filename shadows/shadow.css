@@ -1,0 +1,16 @@
+h1{
+    font-size: 50px;
+text-shadow: 5px 5px 2px yellowgreen;
+
+
+}
+h1:hover{
+/* shadow occurs at the box of text */
+    box-shadow: 5px 5px 2px rgb(250, 133, 0) ;
+    cursor: pointer;
+}
+
+h1:active{
+    
+    box-shadow: 5px 5px 2px rgb(4, 3, 2) ;
+}
